@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0057B8" />
+    <title>Payments on Tap · 글로벌 결제 3총사 인텔리전스 (Visa · Mastercard · Amex)</title>
+    <meta name="description" content="Visa, Mastercard, American Express 글로벌 3대 결제 네트워크의 시장 점유율, GDV 거래액, 수수료 마진 및 페어스 트레이딩 퀀트 대시보드" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Payments on Tap · 결제 3총사 퀀트 배틀그라운드" />
+    <meta property="og:description" content="Visa, Mastercard, American Express 실시간 점유율, 크로스보더 수수료 및 밸류에이션 스프레드" />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://pay.on-tap.xyz" />
+
+    <!-- Anti-Flash Theme Init Script -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('pay_theme') || 'auto';
+          var isDark = saved === 'dark' || (saved === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.classList.add('light');
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#f8fafc] dark:bg-[#09090b] text-slate-900 dark:text-zinc-100 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

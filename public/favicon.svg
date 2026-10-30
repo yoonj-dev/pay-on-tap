@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="visa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0057B8"/>
+      <stop offset="100%" stop-color="#003B7A"/>
+    </linearGradient>
+    <linearGradient id="mc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EB001B"/>
+      <stop offset="100%" stop-color="#F79E1B"/>
+    </linearGradient>
+    <linearGradient id="amex" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006FCF"/>
+      <stop offset="100%" stop-color="#002663"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#bg)"/>
+  <rect x="2" y="2" width="96" height="96" rx="22" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.3"/>
+  
+  <!-- Interlocking Trio Nodes (Visa, MC, Amex) -->
+  <circle cx="36" cy="42" r="18" fill="url(#visa)" opacity="0.85"/>
+  <circle cx="64" cy="42" r="18" fill="url(#mc)" opacity="0.85"/>
+  <circle cx="50" cy="62" r="18" fill="url(#amex)" opacity="0.85"/>
+  
+  <!-- Center Tap Node -->
+  <circle cx="50" cy="49" r="6" fill="#10B981" stroke="#ffffff" stroke-width="2"/>
+</svg>

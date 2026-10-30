@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/dashboard/paymentsbattlegroundhero.tsx","./src/components/dashboard/paymentssetmenuworkspace.tsx","./src/components/dashboard/tradingviewcomparison.tsx","./src/components/layout/footer.tsx","./src/components/layout/header.tsx","./src/data/paymentsdata.ts","./src/lib/theme.ts","./src/types/payments.ts"],"version":"5.7.3"}

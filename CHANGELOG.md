@@ -1,0 +1,5 @@
+# CHANGELOG: Payments on Tap (pay-on-tap)
+- 2026-10-30 [Core] [feat] Initialize Payments on Tap set-menu oligopoly intelligence hub (Ref: PLAN-20261030-PAY-ON-TAP-INIT)
+- 2026-10-30 [Branding] [feat] Generate interlocking trio branding assets (favicon, touch-icon, PWA icons, og-image) (Ref: PLAN-20261030-PAY-ON-TAP-INIT)
+- 2026-10-30 [UI/UX] [feat] Implement PaymentsBattlegroundHero and 4 Set-Menu workspaces (Dominance, Margins, Credit Risk, Pairs Spread) (Ref: PLAN-20261030-PAY-ON-TAP-INIT)
+- 2026-10-30 [Chart] [feat] Integrate TradingView live technical comparison suite for V, MA, AXP (Ref: PLAN-20261030-PAY-ON-TAP-INIT)
